@@ -59,7 +59,7 @@ def removeFromList(toDoList):
     for item in toDoList:
         print(str(toDoList.index(item) + 1) + ". " + item)
 
-    choice = int(input("\nWhich task would you like to delete\n"))
+    choice = int(input("\nWhich task would you like to delete?\n"))
     
     while choice < 1 or choice > len(toDoList):
         choice = int(input("\nInvalid Choice\n\n"))
